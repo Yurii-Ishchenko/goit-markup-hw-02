@@ -92,6 +92,12 @@ color: #FFFFFF;
 .main-text {
     background-color: var(--accent-color);
 }
+.social-logo:hover, 
+.client-logo:hover,
+.social-logo:focus, 
+.client-logo:focus {
+background-color: var(--accent-color);
+}
 
 /* footer */
 footer {
