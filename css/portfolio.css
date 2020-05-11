@@ -1,0 +1,141 @@
+:root {
+   --tittle-text-color: #212121;
+   --accent-color: #2196f3;
+}
+
+body {
+  background-color:#FFFFFF;
+  font-family: roboto, sans-serif
+  }
+/* header */
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2
+  letter-spacing: 0.03em;
+}
+.logo:focus, .logo:hover {
+    color: var(--accent-color);
+}
+.accent-color-logo {
+ color: var(--accent-color) 
+}
+.main-color-logo {
+    color: black;
+}
+
+.header-nav {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.header-nav:hover, .header-nav:focus {
+    color: #2196F3;
+}
+ul {
+    list-style: none;
+}
+
+.contacts-links {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575
+}
+
+.contacts-links:hover, .contacts-links:focus {
+    color: var(--accent-color);
+}
+/* main */
+.filters {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+.filters:hover,
+.filters:focus {
+    background-color: var(--accent-color);
+    color: #FFFFFF;
+}
+.buttons {
+    text-align: center;
+}
+.titles {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+}
+.choice {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.text {
+font-weight: 400;
+font-size: 18px;
+line-height: 1.6;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.main-text {
+    background-color: var(--accent-color);
+}
+
+/* footer */
+footer {
+        background-color: #2F303A;
+    }
+    .footer-color-logo{
+        color: #FFFFFF;
+    }
+    .logo-footer {
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    }
+    .addres {
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;
+     }
+     .contacts {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+
+     }
+     .join {
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.03em;
+   color: #FFFFFF;
+     }
+     .end {
+font-weight: 400;
+font-size: 12px;
+line-height: 2.0;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.4);
+     }
+
