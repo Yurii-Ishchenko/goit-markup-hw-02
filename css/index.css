@@ -1,0 +1,90 @@
+/* main */
+h2,
+h3 {
+  color: #212121;
+}
+.hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+.hero-section {
+  background-color: brown;
+  text-align: center;
+}
+.button-order {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Преиущества компании */
+.icon {
+  background-color: #f5f4fa;
+}
+.icon:hover {
+  background-color: var(--accent-color);
+}
+
+.edge-tittle {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+.edge-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* заголовки h2 */
+.titles {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.doing-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.doing-section {
+  background-color: red;
+}
+.team {
+  background-color: #f5f4fa;
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.social-logo:hover,
+.client-logo:hover,
+.social-logo:focus,
+.client-logo:focus {
+  background-color: var(--accent-color);
+}

@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
   </head>
 
@@ -19,9 +20,11 @@
           <span class="accent-color-logo">Web</span>
           <span class="main-color-logo">Studio</span>
         </a>
-        <ul>
+        <ul class="site-nav">
           <li><a href="./index.html" class="header-nav">Студия</a></li>
-          <li><a href="./portfolio.html" class="header-nav">Портфолио</a></li>
+          <li>
+            <a href="./portfolio.html" class="header-nav current">Портфолио</a>
+          </li>
           <li><a href="" class="header-nav">Контакты</a></li>
         </ul>
         <ul>
@@ -41,141 +44,139 @@
     <!--Уникальный контент страницы, невидимый заголовок h1-->
     <main>
       <section>
-        <nav>
-          <h1>Портфолио компании</h1>
-          <ul class="buttons">
-            <li><button class="filters" type="button">Все</button></li>
-            <li><button class="filters" type="button">Веб-сайты</button></li>
-            <li><button class="filters" type="button">Приложения</button></li>
-            <li><button class="filters" type="button">Дизайн</button></li>
-            <li><button class="filters" type="button">Маркетинг</button></li>
-          </ul>
-          <ul class="main-text">
-            <li>
-              <a href="">
-                <h2 class="titles">Технокряк</h2>
-                <img
-                  src="./Images2/Технокряк.jpg"
-                  alt="Фотографии людей на экране"
-                />
-                <p class="choice">Веб-сайт</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Постер New Orlean vs Golden Stars</h2>
-                <img src="./Images2/Постер.jpg" alt="Два баскетболиста" />
-                <p class="choice">Дизайн</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Ресторан Seafood</h2>
-                <img
-                  src="./Images2/РесторанSeafood.jpg"
-                  alt="Логотип ресторана"
-                />
-                <p class="choice">Приложение</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Проект Prime</h2>
-                <img src="./Images2/ПроектPrime.jpg" alt="Наушники" />
-                <p class="choice">Маркетинг</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Проект Boxes</h2>
-                <img src="./Images2/ПроектBoxes.jpg" alt="коробки" />
-                <p class="choice">Приложение</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Inspiration has no Borders</h2>
-                <img
-                  src="./Images2/InspirationhasnoBorders.jpg"
-                  alt="Монитор компьютера"
-                />
-                <p class="choice">Веб-сайт</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Издание Limited Edition</h2>
-                <img
-                  src="./Images2/ИзданиеLimitedEdition.jpg"
-                  alt="Открытый журнал"
-                />
-                <p class="choice">Дизайн</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Проект LAB</h2>
-                <img src="./Images2/ПроектLAB.jpg" alt="Бирка" />
-                <p class="choice">Маркетинг</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <h2 class="titles">Growing Business</h2>
-                <img
-                  src="./Images2/GrowingBusiness.jpg"
-                  alt="Работа за ноутбуком"
-                />
-                <p class="choice">Приложение</p>
-                <p class="text">
-                  Технокряк это современная площадка распространения
-                  коронавируса. Компании используют эту платформу для цифрового
-                  шпионажа и атак на защищённые сервера конкурентов.
-                </p>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <h1>Портфолио компании</h1>
+        <ul class="buttons">
+          <li><button class="filters" type="button">Все</button></li>
+          <li><button class="filters" type="button">Веб-сайты</button></li>
+          <li><button class="filters" type="button">Приложения</button></li>
+          <li><button class="filters" type="button">Дизайн</button></li>
+          <li><button class="filters" type="button">Маркетинг</button></li>
+        </ul>
+        <ul class="main-text">
+          <li>
+            <a href="">
+              <h2 class="titles">Технокряк</h2>
+              <img
+                src="./Images2/Технокряк.jpg"
+                alt="Фотографии людей на экране"
+              />
+              <p class="choice">Веб-сайт</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Постер New Orlean vs Golden Stars</h2>
+              <img src="./Images2/Постер.jpg" alt="Два баскетболиста" />
+              <p class="choice">Дизайн</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Ресторан Seafood</h2>
+              <img
+                src="./Images2/РесторанSeafood.jpg"
+                alt="Логотип ресторана"
+              />
+              <p class="choice">Приложение</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Проект Prime</h2>
+              <img src="./Images2/ПроектPrime.jpg" alt="Наушники" />
+              <p class="choice">Маркетинг</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Проект Boxes</h2>
+              <img src="./Images2/ПроектBoxes.jpg" alt="коробки" />
+              <p class="choice">Приложение</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Inspiration has no Borders</h2>
+              <img
+                src="./Images2/InspirationhasnoBorders.jpg"
+                alt="Монитор компьютера"
+              />
+              <p class="choice">Веб-сайт</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Издание Limited Edition</h2>
+              <img
+                src="./Images2/ИзданиеLimitedEdition.jpg"
+                alt="Открытый журнал"
+              />
+              <p class="choice">Дизайн</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Проект LAB</h2>
+              <img src="./Images2/ПроектLAB.jpg" alt="Бирка" />
+              <p class="choice">Маркетинг</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <h2 class="titles">Growing Business</h2>
+              <img
+                src="./Images2/GrowingBusiness.jpg"
+                alt="Работа за ноутбуком"
+              />
+              <p class="choice">Приложение</p>
+              <p class="text">
+                Технокряк это современная площадка распространения коронавируса.
+                Компании используют эту платформу для цифрового шпионажа и атак
+                на защищённые сервера конкурентов.
+              </p>
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
     <!--Футер-->
