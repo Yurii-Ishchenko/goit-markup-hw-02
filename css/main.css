@@ -32,6 +32,9 @@ p {
   margin-bottom: 0;
   padding-inline-start: 0;
 }
+a {
+  text-decoration: none;
+}
 
 /* header */
 
@@ -55,7 +58,6 @@ p {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .logo:focus,
@@ -78,7 +80,6 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
-  text-decoration: none;
 }
 .header-nav:hover,
 .header-nav:focus {
@@ -86,6 +87,7 @@ p {
 }
 .header-contacns {
   display: flex;
+  margin-left: auto;
 }
 .header-contacns .item + .item {
   margin-left: 30px;
@@ -110,7 +112,6 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration: none;
   color: #757575;
 }
 
@@ -132,7 +133,6 @@ footer {
   font-size: 22px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  text-decoration: none;
   margin-bottom: 10px;
 }
 .addres {

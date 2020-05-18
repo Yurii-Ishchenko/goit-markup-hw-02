@@ -27,7 +27,15 @@
   color: #ffffff;
 }
 .buttons {
+  display: flex;
+  justify-content: center;
   text-align: center;
+}
+.buttons .filters + .filters {
+  margin-left: 8px;
+}
+.buttons .item + .item {
+  margin-left: 8px;
 }
 
 .titles {
@@ -55,6 +63,7 @@
 .main-text {
   background-color: var(--accent-color);
 }
+
 .social-logo:hover,
 .client-logo:hover,
 .social-logo:focus,
