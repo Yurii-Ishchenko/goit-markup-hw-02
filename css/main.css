@@ -15,7 +15,6 @@ html {
 }
 
 body {
-  width: 1600px;
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: roboto, sans-serif;
@@ -39,7 +38,7 @@ a {
 /* header */
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
