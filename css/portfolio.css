@@ -13,7 +13,7 @@
   line-height: 1.6;
   letter-spacing: 0.03em;
   min-width: 73px;
-  border-radius: 4px;
+
   color: #212121;
 }
 .filters:hover,
@@ -24,25 +24,18 @@
 .buttons {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
-.buttons .filters + .filters {
-  margin-left: 8px;
-}
+
 .buttons .item + .item {
   margin-left: 8px;
 }
-
 .titles {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
 }
-.hidden {
-  display: none;
-}
+
 .choice {
   font-weight: 400;
   font-size: 16px;
@@ -63,11 +56,25 @@
   flex-wrap: wrap;
   margin-top: 50px;
 }
+
 .main-text .flex-element {
   margin-right: 30px;
+  margin-top: 30px;
+  width: 370px;
+}
+.flex-element:nth-child(-n + 3) {
+  margin-top: 0;
 }
 .flex-element:nth-child(3n) {
   margin-right: 0;
+}
+.card-content {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  border-top: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 20px 24px;
 }
 .social-logo:hover,
 .client-logo:hover,

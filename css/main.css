@@ -34,6 +34,14 @@ p {
 a {
   text-decoration: none;
 }
+.hidden {
+  display: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 
 /* header */
 
@@ -43,7 +51,6 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  outline: 2px solid tomato;
 }
 .main-nav {
   display: flex;
@@ -120,6 +127,10 @@ ul {
 }
 
 /* footer */
+.footer-section {
+  padding-top: 48px;
+}
+
 footer {
   background-color: #2f303a;
 }
@@ -127,10 +138,10 @@ footer {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  padding-top: 48px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: rgba(255, 255, 255, 0.1);
+  padding-bottom: 28px;
 }
 .footer-color-logo {
   color: #ffffff;
