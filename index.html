@@ -33,15 +33,22 @@
           </li>
           <li class="item"><a href="" class="header-nav">Контакты</a></li>
         </ul>
-        <ul class="header-contacns">
+
+        <ul class="header-contacts">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="contacts-links"
-              >info@devstudio.com</a
+            <a href="mailto:info@devstudio.com" class="contacts-links">
+              <svg class="contact-logo envelope">
+                <use href="./Images/symbol-defs.svg#envelope"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="contacts-links"
-              >+38 096 111 11 11</a
+            <a href="tel:+380961111111" class="contacts-links">
+              <svg class="contact-logo tel">
+                <use href="./Images/symbol-defs.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -50,8 +57,10 @@
     <main>
       <!--герой-->
       <section class="hero-section">
-        <h1 class="hero-tittle">эффективные решения для вашего бизнеса</h1>
-        <a href="" class="button-order">Заказать услугу</a>
+        <h1 class="hero-tittle">
+          эффективные решения <br />для вашего бизнеса
+        </h1>
+        <a href="" class="button button-order">Заказать услугу</a>
       </section>
       <!--преимущества компании (сделать невидимым заголовок H2)-->
       <section class="edge-section">
@@ -59,14 +68,11 @@
           <h2 class="hidden">Наши преимущества</h2>
           <ul class="edge-list">
             <li class="item">
-              <div class="icon">
-                <img
-                  src="./Images/antenna 1.svg"
-                  class="icon-style"
-                  alt="Antenna"
-                />
+              <div class="edge-image">
+                <svg class="edge-logo">
+                  <use href="./Images/symbol-defs.svg#antenna"></use>
+                </svg>
               </div>
-
               <h3 class="edge-tittle">Внимание к деталям</h3>
               <p class="edge-text">
                 Идейные соображения, а также начало повседневной работы по
@@ -74,12 +80,10 @@
               </p>
             </li>
             <li class="item">
-              <div class="icon">
-                <img
-                  src="./Images/clock 1.svg"
-                  class="icon-style"
-                  alt="Clock"
-                />
+              <div class="edge-image">
+                <svg class="edge-logo">
+                  <use href="./Images/symbol-defs.svg#clock"></use>
+                </svg>
               </div>
               <h3 class="edge-tittle">Пунктуальность</h3>
               <p class="edge-text">
@@ -88,12 +92,10 @@
               </p>
             </li>
             <li class="item">
-              <div class="icon">
-                <img
-                  src="./Images/diagram 1.svg"
-                  class="icon-style"
-                  alt="Diagram"
-                />
+              <div class="edge-image">
+                <svg class="edge-logo">
+                  <use href="./Images/symbol-defs.svg#diagram"></use>
+                </svg>
               </div>
               <h3 class="edge-tittle">Планирование</h3>
               <p class="edge-text">
@@ -101,13 +103,12 @@
                 степени обуславливает.
               </p>
             </li>
+
             <li class="item">
-              <div class="icon">
-                <img
-                  src="./Images/astronaut 1 .svg"
-                  class="icon-style"
-                  alt="Astronaut"
-                />
+              <div class="edge-image">
+                <svg class="edge-logo">
+                  <use href="./Images/symbol-defs.svg#astronaut"></use>
+                </svg>
               </div>
               <h3 class="edge-tittle">Современные технологии</h3>
               <p class="edge-text">
@@ -154,6 +155,7 @@
       <section class="team">
         <div class="container">
           <h2 class="titles team-title">Наша команда</h2>
+
           <ul class="team-list">
             <li class="item">
               <img
@@ -165,36 +167,33 @@
               <p class="position">Product Designer</p>
               <ul class="social-list">
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/instagram.svg"
-                      class="social-logo"
-                      alt="логотип инстаграм"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/twitter.svg"
-                      class="social-logo"
-                      alt="логотип твиттер"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/facebook.svg"
-                      class="social-logo"
-                      alt="логотип фейсбук"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./Images/linkedin.svg"
-                      class="social-logo"
-                      alt="логотип линкедин"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -208,36 +207,33 @@
               <p class="position">Frontend Developer</p>
               <ul class="social-list">
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/instagram.svg"
-                      class="social-logo"
-                      alt="логотип инстаграм"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/twitter.svg"
-                      class="social-logo"
-                      alt="логотип твиттер"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/facebook.svg"
-                      class="social-logo"
-                      alt="логотип фейсбук"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./Images/linkedin.svg"
-                      class="social-logo"
-                      alt="логотип линкедин"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -251,36 +247,33 @@
               <p class="position">Marketing</p>
               <ul class="social-list">
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/instagram.svg"
-                      class="social-logo"
-                      alt="логотип инстаграм"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/twitter.svg"
-                      class="social-logo"
-                      alt="логотип твиттер"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/facebook.svg"
-                      class="social-logo"
-                      alt="логотип фейсбук"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./Images/linkedin.svg"
-                      class="social-logo"
-                      alt="логотип линкедин"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -294,36 +287,33 @@
               <p class="position">UI Designer</p>
               <ul class="social-list">
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/instagram.svg"
-                      class="social-logo"
-                      alt="логотип инстаграм"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#instagram"></use>
+                    </svg>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#twitter"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/twitter.svg"
-                      class="social-logo"
-                      alt="логотип твиттер"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#facebook"></use>
+                    </svg>
+                  </a>
                 </li>
                 <li>
-                  <a href=""
-                    ><img
-                      src="./Images/facebook.svg"
-                      class="social-logo"
-                      alt="логотип фейсбук"
-                  /></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><img
-                      src="./Images/linkedin.svg"
-                      class="social-logo"
-                      alt="логотип линкедин"
-                  /></a>
+                  <a href="" class="social-link">
+                    <svg class="social-logo">
+                      <use href="./Images/symbol-defs.svg#linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
             </li>
@@ -335,53 +325,47 @@
         <div class="container">
           <h2 class="titles client-title">Постоянные клиенты</h2>
           <ul class="client-list">
-            <li class="item">
-              <a href=""
-                ><img
-                  src="./Images/logo1.svg"
-                  class="client-logo"
-                  alt="логотип клиента 1"
-              /></a>
+            <li class="client-item">
+              <a href="" class="client-link">
+                <svg class="client-logo first-client">
+                  <use href="./Images/symbol-defs.svg#logo1"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href=""
-                ><img
-                  src="./Images/logo2.svg"
-                  class="client-logo"
-                  alt="логотип клиента 2"
-              /></a>
+            <li class="client-item">
+              <a href="" class="client-link">
+                <svg class="client-logo second-client">
+                  <use href="./Images/symbol-defs.svg#logo2"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href=""
-                ><img
-                  src="./Images/logo3.svg"
-                  class="client-logo"
-                  alt="логотип клиента 3"
-              /></a>
+            <li class="client-item">
+              <a href="" class="client-link">
+                <svg class="client-logo third-client">
+                  <use href="./Images/symbol-defs.svg#logo3"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href=""
-                ><img
-                  src="./Images/logo4.svg"
-                  class="client-logo"
-                  alt="логотип клиента 4"
-              /></a>
+            <li class="client-item">
+              <a href="" class="client-link">
+                <svg class="client-logo fourth-client">
+                  <use href="./Images/symbol-defs.svg#logo4"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href=""
-                ><img
-                  src="./Images/logo5.svg"
-                  class="client-logo"
-                  alt="логотип клиента 5"
-              /></a>
+            <li class="client-item">
+              <a href="" class="client-link">
+                <svg class="client-logo fifth-client">
+                  <use href="./Images/symbol-defs.svg#logo5"></use>
+                </svg>
+              </a>
             </li>
-            <li class="item">
-              <a href=""
-                ><img
-                  src="./Images/logo6.svg"
-                  class="client-logo"
-                  alt="логотип клиента 6"
-              /></a>
+            <li class="client-item">
+              <a href="" class="client-link">
+                <svg class="client-logo sixth-client">
+                  <use href="./Images/symbol-defs.svg#logo6"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
@@ -406,41 +390,44 @@
           <b class="join">ПРИСОЕДИНЯЙТЕСЬ</b>
           <ul class="social-links">
             <li>
-              <a href=""
-                ><img
-                  src="./Images/instagram.svg"
-                  class="social-logo"
-                  alt="логотип инстаграм"
-              /></a>
+              <a href="" class="social-link">
+                <svg class="social-logo-footer">
+                  <use href="./Images/symbol-defs.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="" class="social-link">
+                <svg class="social-logo-footer">
+                  <use href="./Images/symbol-defs.svg#twitter"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href=""
-                ><img
-                  src="./Images/twitter.svg"
-                  class="social-logo"
-                  alt="логотип твиттер"
-              /></a>
+              <a href="" class="social-link">
+                <svg class="social-logo-footer">
+                  <use href="./Images/symbol-defs.svg#facebook"></use>
+                </svg>
+              </a>
             </li>
             <li>
-              <a href=""
-                ><img
-                  src="./Images/facebook.svg"
-                  class="social-logo"
-                  alt="логотип фейсбук"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./Images/linkedin.svg"
-                  class="social-logo"
-                  alt="логотип линкедин"
-              /></a>
+              <a href="" class="social-link">
+                <svg class="social-logo-footer">
+                  <use href="./Images/symbol-defs.svg#linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
         <div>
           <p class="join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+          <a href="" class="button subscribe"
+            >Подписаться
+            <svg class="subscribe-icon">
+              <use href="./Images/symbol-defs.svg#iconsend"></use>
+            </svg>
+          </a>
         </div>
       </div>
       <p class="end">2020 | Developed by GoIT Students</p>

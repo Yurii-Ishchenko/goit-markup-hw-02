@@ -10,28 +10,28 @@ h3 {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
+
   margin-top: 0;
-  margin-bottom: 46px;
+  margin-bottom: 30px;
 
   color: #ffffff;
 }
 .hero-section {
-  background-color: brown;
   text-align: center;
+  background-color: gray;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../Images/Headerimg.jpg');
+  height: 600px;
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .button-order {
-  display: inline-block;
-  border-radius: 4px;
   padding: 10px 32px;
-  min-width: 200px;
-  height: 50px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  text-align: center;
-  color: #ffffff;
-  background-color: var(--accent-color);
 }
 
 /* Преиущества компании */
@@ -48,17 +48,16 @@ h3 {
 .edge-list .item {
   width: 270px;
 }
-.icon {
+.edge-image {
   background-color: #f5f4fa;
+  height: 120px;
+  padding: 25px 100px;
   margin-bottom: 30px;
 }
-.icon:hover {
-  background-color: var(--accent-color);
+.edge-logo {
+  width: 70px;
+  height: 70px;
 }
-.icon-style {
-  padding: 25px 104px;
-}
-
 .edge-tittle {
   font-weight: 700;
   font-size: 14px;
@@ -66,16 +65,14 @@ h3 {
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
-
 .edge-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  width: 278px;
   height: 75px;
 }
-/* заголовки h2 */
+
 .titles {
   font-weight: 700;
   font-size: 36px;
@@ -105,13 +102,14 @@ h3 {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* team */
+/* команда компании */
 .team {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
   outline: 2px solid tomato;
 }
+
 .team-title {
   margin-bottom: 50px;
 }
@@ -120,6 +118,9 @@ h3 {
 }
 .team-list .item {
   width: 270px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list .item + .item {
   margin-left: 30px;
@@ -127,8 +128,8 @@ h3 {
 .social-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 24px;
 }
-
 .photo {
   margin-bottom: 30px;
   width: 270px;
@@ -147,31 +148,69 @@ h3 {
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
 .client-title {
   margin-bottom: 50px;
 }
 .client-list {
   display: flex;
 }
-.client-list .item {
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
-  width: 175px;
+
+.client-item {
+  width: 170px;
   height: 90px;
 }
-.client-list .item + .item {
+.client-item:not(:first-child) {
   margin-left: 30px;
 }
 
-.social-logo:hover,
-.client-logo:hover,
-.social-logo:focus,
-.client-logo:focus {
-  background-color: var(--accent-color);
+.client-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.client-link:hover,
+.client-link:focus {
+  border: 1px solid var(--accent-color);
+}
+.client-link:hover .client-logo,
+.client-link:focus .client-logo {
+  fill: var(--accent-color);
+}
+
+.client-logo {
+  fill: #afb1b8;
+}
+
+.first-client {
+  width: 44px;
+  height: 50px;
+}
+.second-client {
+  width: 40px;
+  height: 52px;
+}
+.third-client {
+  width: 41px;
+  height: 43px;
+}
+.fourth-client {
+  width: 80px;
+  height: 42px;
+}
+.fifth-client {
+  width: 59px;
+  height: 47px;
+}
+.sixth-client {
+  width: 88px;
+  height: 45px;
 }
