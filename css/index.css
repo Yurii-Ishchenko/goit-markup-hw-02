@@ -29,6 +29,9 @@ h3 {
   max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-order {
   padding: 10px 32px;
@@ -86,19 +89,35 @@ h3 {
 .doing-list {
   display: flex;
 }
-.doing-list .item + .item {
+.doing-item {
+  width: 370px;
+  position: relative;
+}
+.doing-item:not(:first-child) {
   margin-left: 30px;
 }
+.bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  content: '';
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+  bottom: 0;
+  right: 0;
+}
+
 .doing-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 16px;
   text-align: center;
   letter-spacing: 0.03em;
+  font-size: 14px;
   color: #ffffff;
 }
 .doing-section {
-  background-color: red;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -107,7 +126,6 @@ h3 {
   background-color: #f5f4fa;
   padding-top: 94px;
   padding-bottom: 94px;
-  outline: 2px solid tomato;
 }
 
 .team-title {

@@ -18,7 +18,6 @@ body {
   color: var(--primary-text-color);
   background-color: #ffffff;
   font-family: roboto, sans-serif;
-  width: 1600px;
 }
 h1,
 h2,
@@ -104,12 +103,25 @@ ul {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
 .header-nav:hover,
 .header-nav:focus {
   color: #2196f3;
 }
 .site-nav .current {
   color: var(--accent-color);
+  position: relative;
+}
+.current:hover::after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  background-color: var(--accent-color);
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  right: 0;
+  border-radius: 2px;
 }
 .site-nav {
   display: flex;

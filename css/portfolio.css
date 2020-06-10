@@ -49,6 +49,36 @@
   margin-top: 4px;
   color: #757575;
 }
+.card-image {
+  position: relative;
+  overflow: hidden;
+}
+.card-image::before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 370px;
+  height: 294px;
+  background-color: var(--accent-color);
+  opacity: 0;
+}
+
+.flex-element:hover .card-image::before {
+  opacity: 0.9;
+}
+.card-text {
+  position: absolute;
+  width: 370px;
+  height: 294px;
+  padding: 63px 24px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.flex-element:hover .card-text {
+  opacity: 1;
+}
 .text {
   font-weight: 400;
   font-size: 18px;
