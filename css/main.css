@@ -102,6 +102,7 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav:hover,
@@ -112,7 +113,7 @@ ul {
   color: var(--accent-color);
   position: relative;
 }
-.current:hover::after {
+.current::after {
   display: inline-block;
   position: absolute;
   content: '';
@@ -145,10 +146,12 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contact-logo {
   fill: #757575;
   margin-right: 10px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .envelope {
   width: 16px;
@@ -237,6 +240,7 @@ address {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-logo-footer {
   fill: #ffffff;
@@ -260,6 +264,7 @@ address {
   width: 44px;
   height: 44px;
   padding: 12px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .end {
