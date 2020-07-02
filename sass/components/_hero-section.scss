@@ -1,0 +1,31 @@
+.hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  margin-top: 0;
+  margin-bottom: 30px;
+
+  color: $bgc;
+}
+.hero-section {
+  text-align: center;
+  background-color: gray;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url('../Images/Headerimg.jpg');
+  height: 600px;
+  max-width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button-order {
+  padding: 10px 32px;
+}

@@ -1,0 +1,40 @@
+.edge-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.edge-list {
+  display: flex;
+}
+
+.edge-list-item {
+  width: 270px;
+
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+.edge-image {
+  background-color: #f5f4fa;
+  height: 120px;
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+.edge-logo {
+  width: 70px;
+  height: 70px;
+}
+.edge-tittle {
+  color: $tittle-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+.edge-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  height: 75px;
+}

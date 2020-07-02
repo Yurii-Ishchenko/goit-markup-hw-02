@@ -1,0 +1,28 @@
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  &:focus,
+  &:hover {
+    color: $accent-color;
+  }
+}
+
+.accent-color-logo {
+  color: $accent-color;
+}
+.main-color-logo {
+  color: black;
+}
+.footer-color-logo {
+  color: $bgc;
+}
+.logo-footer {
+  display: inline-flex;
+
+  margin-bottom: 20px;
+}

@@ -12,8 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -25,17 +24,19 @@
           <span class="main-color-logo">Studio</span>
         </a>
         <ul class="site-nav">
-          <li class="item">
+          <li class="site-nav-item">
             <a href="./index.html" class="header-nav current">Студия</a>
           </li>
-          <li class="item">
+          <li class="site-nav-item">
             <a href="./portfolio.html" class="header-nav">Портфолио</a>
           </li>
-          <li class="item"><a href="" class="header-nav">Контакты</a></li>
+          <li class="site-nav-item">
+            <a href="" class="header-nav">Контакты</a>
+          </li>
         </ul>
 
         <ul class="header-contacts">
-          <li class="item">
+          <li class="header-contacts-item">
             <a href="mailto:info@devstudio.com" class="contacts-links">
               <svg class="contact-logo envelope">
                 <use href="./Images/symbol-defs.svg#envelope"></use>
@@ -43,7 +44,7 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
+          <li class="header-contacts-item">
             <a href="tel:+380961111111" class="contacts-links">
               <svg class="contact-logo tel">
                 <use href="./Images/symbol-defs.svg#smartphone"></use>
@@ -60,14 +61,16 @@
         <h1 class="hero-tittle">
           эффективные решения <br />для вашего бизнеса
         </h1>
-        <a href="" class="button button-order">Заказать услугу</a>
+        <button class="button button-order" data-modal-open>
+          Заказать услугу
+        </button>
       </section>
       <!--преимущества компании (сделать невидимым заголовок H2)-->
       <section class="edge-section">
         <div class="container">
-          <h2 class="hidden">Наши преимущества</h2>
+          <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="edge-list">
-            <li class="item">
+            <li class="edge-list-item">
               <div class="edge-image">
                 <svg class="edge-logo">
                   <use href="./Images/symbol-defs.svg#antenna"></use>
@@ -79,7 +82,7 @@
                 формированию позиции.
               </p>
             </li>
-            <li class="item">
+            <li class="edge-list-item">
               <div class="edge-image">
                 <svg class="edge-logo">
                   <use href="./Images/symbol-defs.svg#clock"></use>
@@ -91,7 +94,7 @@
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item">
+            <li class="edge-list-item">
               <div class="edge-image">
                 <svg class="edge-logo">
                   <use href="./Images/symbol-defs.svg#diagram"></use>
@@ -104,7 +107,7 @@
               </p>
             </li>
 
-            <li class="item">
+            <li class="edge-list-item">
               <div class="edge-image">
                 <svg class="edge-logo">
                   <use href="./Images/symbol-defs.svg#astronaut"></use>
@@ -164,7 +167,7 @@
           <h2 class="titles team-title">Наша команда</h2>
 
           <ul class="team-list">
-            <li class="item">
+            <li class="team-list-item">
               <img
                 src="./Images/teamcard1.jpg"
                 class="photo"
@@ -204,7 +207,7 @@
                 </li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team-list-item">
               <img
                 src="./Images/teamcard2.jpg"
                 class="photo"
@@ -244,7 +247,7 @@
                 </li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team-list-item">
               <img
                 src="./Images/teamcard3.jpg"
                 class="photo"
@@ -284,7 +287,7 @@
                 </li>
               </ul>
             </li>
-            <li class="item">
+            <li class="team-list-item">
               <img
                 src="./Images/teamcard4.jpg"
                 class="photo"
@@ -328,46 +331,46 @@
         </div>
       </section>
       <!--постоянные клиенты компании-->
-      <section class="clients">
+      <section class="clients-section">
         <div class="container">
           <h2 class="titles client-title">Постоянные клиенты</h2>
           <ul class="client-list">
-            <li class="client-item">
+            <li class="client-list-item">
               <a href="" class="client-link">
                 <svg class="client-logo first-client">
                   <use href="./Images/symbol-defs.svg#logo1"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
+            <li class="client-list-item">
               <a href="" class="client-link">
                 <svg class="client-logo second-client">
                   <use href="./Images/symbol-defs.svg#logo2"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
+            <li class="client-list-item">
               <a href="" class="client-link">
                 <svg class="client-logo third-client">
                   <use href="./Images/symbol-defs.svg#logo3"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
+            <li class="client-list-item">
               <a href="" class="client-link">
                 <svg class="client-logo fourth-client">
                   <use href="./Images/symbol-defs.svg#logo4"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
+            <li class="client-list-item">
               <a href="" class="client-link">
                 <svg class="client-logo fifth-client">
                   <use href="./Images/symbol-defs.svg#logo5"></use>
                 </svg>
               </a>
             </li>
-            <li class="client-item">
+            <li class="client-list-item">
               <a href="" class="client-link">
                 <svg class="client-logo sixth-client">
                   <use href="./Images/symbol-defs.svg#logo6"></use>
@@ -377,25 +380,88 @@
           </ul>
         </div>
       </section>
+      <!--Модальное окно-->
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
+          <form class="form">
+            <label class="form-field">
+              <input
+                type="text"
+                class="form-input"
+                name="name"
+                placeholder=" "
+              />
+              <span class="form-label">Имя</span>
+              <svg class="form-image">
+                <use href="./Images/symbol-defs.svg#name"></use>
+              </svg>
+            </label>
+
+            <label class="form-field">
+              <input type="tel" class="form-input" name="tel" placeholder=" " />
+              <span class="form-label">Телефон</span>
+              <svg class="form-image">
+                <use href="./Images/symbol-defs.svg#tel"></use>
+              </svg>
+            </label>
+
+            <label class="form-field">
+              <input
+                type="emeil"
+                class="form-input"
+                name="mail"
+                placeholder=" "
+              />
+              <span class="form-label">Почта</span>
+              <svg class="form-image">
+                <use href="./Images/symbol-defs.svg#email"></use>
+              </svg>
+            </label>
+
+            <label class="modal-comment">
+              <textarea name="comment" placeholder=" "></textarea>
+              <span class="label-comment">Комментарий</span>
+            </label>
+
+            <div class="checkbox-container">
+              <label class="text-agree">
+                <input type="checkbox" class="checkbox" name="" value="agree" />
+                <span class="check-icon"></span>
+                Соглашаюсь с рассылкой и принимаю
+                <a href="" class="terms-link"> Условия договора</a>
+              </label>
+            </div>
+
+            <button class="button modal-button" type="submit">Отправить</button>
+          </form>
+          <button class="modal-close" data-modal-close>
+            <svg class="modal-icon">
+              <use href="./Images/symbol-defs.svg#close"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
     </main>
     <!--Футер-->
     <footer class="footer-section">
       <div class="container footer">
         <div>
-          <a href="" class="logo-footer">
+          <a href="" class="logo logo-footer">
             <span class="accent-color-logo">Web</span>
             <span class="footer-color-logo">Studio</span>
           </a>
           <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <p class="for-margin">г. Киев, пр-т Леси Украинки, 26</p>
+            <br />
 
-            <span class="contacts">info@example.com</span><br />
+            <span class="contacts for-margin">info@example.com</span><br />
             <span class="contacts">+38 099 111 11 11</span>
           </address>
         </div>
         <div>
           <b class="join">ПРИСОЕДИНЯЙТЕСЬ</b>
-          <ul class="social-links">
+          <ul class="social-list-footer">
             <li>
               <a href="" class="social-link">
                 <svg class="social-logo-footer">
@@ -427,17 +493,39 @@
             </li>
           </ul>
         </div>
-        <div>
-          <p class="join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-          <a href="" class="button subscribe"
-            >Подписаться
+        <form>
+          <label for="subscribe" class="join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
+          <input
+            type="email"
+            class="subscribe-input"
+            name="subscribe"
+            id="subscribe"
+            placeholder="E-mail"
+          />
+          <button type="submit" class="button subscribe">
+            Подписаться
             <svg class="subscribe-icon">
               <use href="./Images/symbol-defs.svg#iconsend"></use>
             </svg>
-          </a>
-        </div>
+          </button>
+        </form>
       </div>
-      <p class="end">2020 | Developed by GoIT Students</p>
     </footer>
+    <script>
+      (() => {
+        const refs = {
+          openModalBtn: document.querySelector('[data-modal-open]'),
+          closeModalBtn: document.querySelector('[data-modal-close]'),
+          modal: document.querySelector('[data-modal]'),
+        };
+
+        refs.openModalBtn.addEventListener('click', toggleModal);
+        refs.closeModalBtn.addEventListener('click', toggleModal);
+
+        function toggleModal() {
+          refs.modal.classList.toggle('is-hidden');
+        }
+      })();
+    </script>
   </body>
 </html>

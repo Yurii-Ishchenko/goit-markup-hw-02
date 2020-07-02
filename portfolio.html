@@ -12,8 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
 
   <body>
@@ -25,17 +24,19 @@
           <span class="main-color-logo">Studio</span>
         </a>
         <ul class="site-nav">
-          <li class="item">
+          <li class="site-nav-item">
             <a href="./index.html" class="header-nav">Студия</a>
           </li>
-          <li class="item">
+          <li class="site-nav-item">
             <a href="./portfolio.html" class="header-nav current">Портфолио</a>
           </li>
-          <li class="item"><a href="" class="header-nav">Контакты</a></li>
+          <li class="site-nav-item">
+            <a href="" class="header-nav">Контакты</a>
+          </li>
         </ul>
 
         <ul class="header-contacts">
-          <li class="item">
+          <li class="header-contacts-item">
             <a href="mailto:info@devstudio.com" class="contacts-links">
               <svg class="contact-logo envelope">
                 <use href="./Images/symbol-defs.svg#envelope"></use>
@@ -43,7 +44,7 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="item">
+          <li class="header-contacts-item">
             <a href="tel:+380961111111" class="contacts-links">
               <svg class="contact-logo tel">
                 <use href="./Images/symbol-defs.svg#smartphone"></use>
@@ -58,25 +59,25 @@
     <main>
       <section class="portfolio">
         <div class="container">
-          <h1 class="hidden">Портфолио компании</h1>
+          <h1 class="visually-hidden">Портфолио компании</h1>
           <ul class="buttons">
-            <li class="item">
+            <li class="buttons-item">
               <button class="filters" type="button">Все</button>
             </li>
 
-            <li class="item">
+            <li class="buttons-item">
               <button class="filters" type="button">Веб-сайты</button>
             </li>
 
-            <li class="item">
+            <li class="buttons-item">
               <button class="filters" type="button">Приложения</button>
             </li>
 
-            <li class="item">
+            <li class="buttons-item">
               <button class="filters" type="button">Дизайн</button>
             </li>
 
-            <li class="item">
+            <li class="buttons-item">
               <button class="filters" type="button">Маркетинг</button>
             </li>
           </ul>
@@ -101,7 +102,7 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="titles">Технокряк</h2>
+                  <h2 class="card-titles">Технокряк</h2>
                   <p class="choice">Веб-сайт</p>
                 </div>
               </a>
@@ -124,7 +125,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h2 class="titles">Постер New Orlean vs Golden Star</h2>
+                  <h2 class="card-titles">Постер New Orlean vs Golden Star</h2>
                   <p class="choice">Дизайн</p>
                 </div>
               </a>
@@ -148,7 +149,7 @@
                 </div>
 
                 <div class="card-content">
-                  <h2 class="titles">Ресторан Seafood</h2>
+                  <h2 class="card-titles">Ресторан Seafood</h2>
                   <p class="choice">Приложение</p>
                 </div>
               </a>
@@ -171,7 +172,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h2 class="titles">Проект Prime</h2>
+                  <h2 class="card-titles">Проект Prime</h2>
                   <p class="choice">Маркетинг</p>
                 </div>
               </a>
@@ -194,7 +195,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h2 class="titles">Проект Boxes</h2>
+                  <h2 class="card-titles">Проект Boxes</h2>
                   <p class="choice">Приложение</p>
                 </div>
               </a>
@@ -217,7 +218,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h2 class="titles">Inspiration has no Borders</h2>
+                  <h2 class="card-titles">Inspiration has no Borders</h2>
                   <p class="choice">Веб-сайт</p>
                 </div>
               </a>
@@ -240,7 +241,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h2 class="titles">Издание Limited Edition</h2>
+                  <h2 class="card-titles">Издание Limited Edition</h2>
                   <p class="choice">Дизайн</p>
                 </div>
               </a>
@@ -259,7 +260,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h2 class="titles">Проект LAB</h2>
+                  <h2 class="card-titles">Проект LAB</h2>
                   <p class="choice">Маркетинг</p>
                 </div>
               </a>
@@ -282,7 +283,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <h2 class="titles">Growing Business</h2>
+                  <h2 class="card-titles">Growing Business</h2>
                   <p class="choice">Приложение</p>
                 </div>
               </a>
@@ -295,20 +296,21 @@
     <footer class="footer-section">
       <div class="container footer">
         <div>
-          <a href="" class="logo-footer">
+          <a href="" class="logo logo-footer">
             <span class="accent-color-logo">Web</span>
             <span class="footer-color-logo">Studio</span>
           </a>
           <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <p class="for-margin">г. Киев, пр-т Леси Украинки, 26</p>
+            <br />
 
-            <span class="contacts">info@example.com</span><br />
+            <span class="contacts for-margin">info@example.com</span><br />
             <span class="contacts">+38 099 111 11 11</span>
           </address>
         </div>
         <div>
           <b class="join">ПРИСОЕДИНЯЙТЕСЬ</b>
-          <ul class="social-links">
+          <ul class="social-list-footer">
             <li>
               <a href="" class="social-link">
                 <svg class="social-logo-footer">
@@ -340,17 +342,23 @@
             </li>
           </ul>
         </div>
-        <div>
-          <p class="join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-          <a href="" class="button subscribe"
-            >Подписаться
+        <form>
+          <label for="subscribe" class="join">ПОДПИШИТЕСЬ НА РАССЫЛКУ</label>
+          <input
+            type="email"
+            class="subscribe-input"
+            name="subscribe"
+            id="subscribe"
+            placeholder="E-mail"
+          />
+          <button type="submit" class="button subscribe">
+            Подписаться
             <svg class="subscribe-icon">
               <use href="./Images/symbol-defs.svg#iconsend"></use>
             </svg>
-          </a>
-        </div>
+          </button>
+        </form>
       </div>
-      <p class="end">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
